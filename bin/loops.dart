@@ -1,13 +1,17 @@
 // import 'dart:developer';
- import 'dart:io';
+ // import 'dart:io';
 
-void main(){
+//void main(){
   // for(int i=1;i<=10;i++){
   //   print("abhai");
   // }
   // for(int i=1;i<=10;i++){
   //   print("$i");
   // }
+
+
+//------------multiplication table--------------
+
 
   //  stdout.write("enter a number : ");
   //   int num1 =int.parse(stdin.readLineSync()!);
@@ -130,6 +134,8 @@ void main(){
 // * * * * *
 
 //-1-------------------------------------
+// int a =5;
+// int b =5;
 
 // for(int i =1;i<=a;i++){
 //   for(int j=1;j<=b;j++){
@@ -203,10 +209,10 @@ void main(){
 //     if(i<=5){
 //     stdout.write("$i ");
 //     }else if (i>=5){
-//       stdout.write('$j');
+//       stdout.write("$j ");
 //     }
 //   }
-//   print('');
+//   print(' ');
 // }
 
 //--6-----------------------
@@ -296,8 +302,45 @@ void main(){
 // * *
 // *
 
-stdout.write("enter any number : ");
-int count =int.parse(stdin.readLineSync()!);
+// stdout.write("enter any number : ");
+// int count =int.parse(stdin.readLineSync()!);
+
+// for(int i=0;i<count;i++){
+//   for(int j=0;j<count;j++){
+//     if(i==0 || j==0 || j==count-i-1 ){
+//       stdout.write("* ");
+//     }else{
+//       stdout.write("  ");
+//     }
+//   }
+//   print("  ");
+// }
 
 
- }
+ //}
+
+ //----while loop
+
+//--entry controlled loop
+
+// void main(){
+//   int a=10;
+//   while(a<=15){
+//     print("heyyyyy  youu...");
+//     a++;
+//   }
+// }
+
+//-----do while loop
+
+//----exit controlled loop
+
+void main(){
+  int a=0;
+  do{
+  print(a);
+  a++;
+  }
+  while(a<10);
+  
+}
