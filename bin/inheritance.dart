@@ -70,26 +70,137 @@
 
 //--------------------------------
 
-class Vehicle{
-  double? speed;
-  String? color;
+// class Vehicle{
+//   double? speed;
+//   String? color;
+// }
+
+// class Car extends Vehicle{
+//   displaydetails(){
+//     print("speed is : $speed");
+//     print("colour is : $color");
+//   }
+// }
+
+// void main(){
+//   Car car1=Car();
+//   car1.speed=50;
+//   car1.color="red";
+//   car1.displaydetails();
+//   print("------------------------");
+//   Car car2=Car();
+//   car2.speed=70;
+//   car2.color="green";
+//   car2.displaydetails();
+// }
+
+//----------------
+
+// void main(){
+// Laptop obj=Laptop();
+// obj.devicedetails();
+// obj.compute();
+// obj.portable();
+// }
+
+// class Device{
+//   devicedetails(){
+//     print("Device is starting");
+//   }
+// }
+
+// class Computer extends Device{
+//   compute(){
+//     print("Computer is computing");
+//   }
+// }
+
+// class Laptop extends Computer{
+//   portable(){
+//     print("Laptop is portable");
+//   }
+// }
+
+// void main(){
+// B obj=B();
+// obj.printa();
+// obj.a;
+
+// }
+
+// class A{
+//   int a=10;
+//   printa(){
+//     print("first element");
+//   }
+
+// }
+
+// class B extends A{
+//   printa(){
+//     super.printa();
+//     print("second element");
+//   }
+// }
+
+//-------------
+
+// void main(){
+// B obj=B();
+// obj.a=100;
+// obj.printa();
+// //obj.a;
+
+// }
+
+// class A{
+//   int a=10;
+//   printa(){
+//     print("first element is : $a");
+//   }
+
+// }
+
+// class B extends A{
+//   printa(){
+//     super.printa();
+//     print(super.a);
+//     print("second element is $a");
+//   }
+// }
+
+// void main(){
+//   Employee e1=Employee(name: "Have a nice day");
+// }
+
+// class Person{
+//   String name;
+//   Person({required this.name}){
+//     print(name);
+//   }
+// }
+
+// class Employee extends Person{
+//   Employee({required super.name});
+  
+// }
+
+void main(){
+  Student s1=Student(gradeofstudent: 
+  'a', personname: "abhai");
 }
 
-class Car extends Vehicle{
-  displaydetails(){
-    print("speed is : $speed");
-    print("colour is : $color");
+class Person{
+  String personname;
+  Person({required this.personname}){
+    print(personname);
   }
 }
 
-void main(){
-  Car car1=Car();
-  car1.speed=50;
-  car1.color="red";
-  car1.displaydetails();
-  print("------------------------");
-  Car car2=Car();
-  car2.speed=70;
-  car2.color="green";
-  car2.displaydetails();
+class Student extends Person{
+  String gradeofstudent;
+  Student({required this.gradeofstudent, required super.personname}){
+    super.personname;
+    print(gradeofstudent);
+  }
 }
