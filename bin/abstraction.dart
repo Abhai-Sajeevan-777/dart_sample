@@ -76,7 +76,7 @@ class Rectangle extends Shape{
   }
   @override
   void getperimeter() {
-    num perimeter=length*width*2;
+    num perimeter=length+width*2;
     print("perimeter of rectangle is $perimeter");
   }
 }
