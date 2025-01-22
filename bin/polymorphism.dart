@@ -25,21 +25,21 @@
 
 //------------------------------
 
-void main(){
-  Rectangle r1=Rectangle();
-  r1.printname();
-}
+// void main(){
+//   Rectangle r1=Rectangle();
+//   r1.printname();
+// }
 
 
-class Shape{
-  printname(){
-   print("i am a shape"); 
-  }
-}
+// class Shape{
+//   printname(){
+//    print("i am a shape"); 
+//   }
+// }
 
-class Rectangle extends Shape{
-  @override
-  printname(){
-   print("i am a rectangle"); 
-  }
-}
+// class Rectangle extends Shape{
+//   @override
+//   printname(){
+//    print("i am a rectangle"); 
+//   }
+// }

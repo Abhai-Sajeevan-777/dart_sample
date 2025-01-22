@@ -187,7 +187,7 @@
 
 void main(){
   Student s1=Student(gradeofstudent: 
-  'a', personname: "abhai");
+  'A', personname: "abhai");
 }
 
 class Person{
