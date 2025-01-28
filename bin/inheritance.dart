@@ -185,22 +185,22 @@
   
 // }
 
-void main(){
-  Student s1=Student(gradeofstudent: 
-  'A', personname: "abhai");
-}
+// void main(){
+//   Student s1=Student(gradeofstudent: 
+//   'A', personname: "abhai");
+// }
 
-class Person{
-  String personname;
-  Person({required this.personname}){
-    print(personname);
-  }
-}
+// class Person{
+//   String personname;
+//   Person({required this.personname}){
+//     print(personname);
+//   }
+// }
 
-class Student extends Person{
-  String gradeofstudent;
-  Student({required this.gradeofstudent, required super.personname}){
-    super.personname;
-    print(gradeofstudent);
-  }
-}
+// class Student extends Person{
+//   String gradeofstudent;
+//   Student({required this.gradeofstudent, required super.personname}){
+//     super.personname;
+//     print(gradeofstudent);
+//   }
+// }
